@@ -1,7 +1,6 @@
 :root {
     --primary-color: #e02828;
-    --secondary-color: #000000;
-    --tertiary-color: #000000;
+    --secondary-color: #000000;    
 }
   
 * {
@@ -90,14 +89,18 @@ footer h2 {
     margin: 0;
 }
 
+footer div {
+    line-height: 1.5;  
+    font-size: 20px;  
+}
+
 /*-- end of footer --*/
 
 /*-- large background picture --*/
 
 #profile-container {
-    margin: 0 370px 60px; 
-  
-  
+    margin: 0 370px 60px;  
+    
 }
 
 /*-- start of about me --*/
@@ -217,3 +220,73 @@ footer h2 {
 .flex-row {
     display: flex;
 }
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+     
+    .section-title {
+      width: 80%;
+    }
+    
+    .projects {
+      flex: 0 70%;
+    }
+    
+    .contact-info iframe{
+      flex: 1 100%;
+    }
+  }  
+  
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+  
+    @media screen and (max-width: 575px) {
+  
+     
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+    .projects {
+      flex: 0 100%;
+    }
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info > * {
+      flex: 0 100%;
+    }
+  }
