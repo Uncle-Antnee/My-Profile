@@ -9,15 +9,14 @@ Creation of the first of many versions of my portfolio which includes samples of
 ## links
 
 https://uncle-antnee.github.io/My-Profile/
-https://github.com/Uncle-Antnee
+
 
 ## Screenshot
 
 <img src=./assets/Images/screenshot.jpg />
 
 ## Website made using
-HTML
-CSS
+HTML, CSS
 
 ## contact info
 ajwwja@gmail.com

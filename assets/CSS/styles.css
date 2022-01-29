@@ -4,70 +4,69 @@
 }
   
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+ /*-- fixed background for the profile--*/
 
 body {
-    background-image: url(../Images/Circuit\ Board\ wallpaper\ 17482.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    flex-wrap: wrap; 
+  background-image: url(../Images/Circuit\ Board\ wallpaper\ 17482.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  flex-wrap: wrap; 
 }
 
 /*-- start of header --*/
 
 header {
-    padding: 20px 35px;
-    background-color: rgb(0, 0, 0, 1);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+  padding: 20px 35px;
+  background-color: rgb(0, 0, 0, 1);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
   
 header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 46px;
-    color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin: 0;
+  font-size: 46px;
+  color: var(--primary-color);   
 }
   
 header a {
-    text-decoration: none;
-    color: var(--primary-color);
+  text-decoration: none;
+  color: var(--primary-color);
 }
   
 header nav {
-    margin: 7px 0;
+  margin: 7px 0;
 }
   
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
   
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
 }
   
 header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /*-- end of header --*/
@@ -75,23 +74,23 @@ header nav ul li a:hover {
 /*-- start of footer --*/
 
 footer {
-    background: var(--primary-color);
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+  background: var(--primary-color);
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
   
 footer h2 {
-    color: black;
-    font-size: 30px;
-    margin: 0;
+  color: black;
+  font-size: 30px;
+  margin: 0;
 }
 
 footer div {
-    line-height: 1.5;  
-    font-size: 20px;  
+  line-height: 1.5;  
+  font-size: 20px;  
 }
 
 /*-- end of footer --*/
@@ -99,43 +98,41 @@ footer div {
 /*-- large background picture --*/
 
 .profile-container {
-    margin: 0 370px 60px;  
-    
+  margin: 0 370px 60px;      
 }
 
 /*-- start of about me --*/
 
 .about-me {   
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .about {
-    margin: 20px;
-    flex: 1;
-    background-color: rgb(255, 250, 250, 0.4);
-    color: var(--primary-color);
-    border-radius: 10px;
+  margin: 20px;
+  flex: 1;
+  background-color: rgb(255, 250, 250, 0.4);
+  color: var(--primary-color);
+  border-radius: 10px;
 }
 
 .about-me-bio {
-    padding: 25px;
-    line-height: 1.3;
+  padding: 25px;
+  line-height: 1.3;
 }
 
 .about-me-bio p {
-    text-align: center;
-    font-size: 22px;
-    
+  text-align: center;
+  font-size: 22px;   
 }
 
 .about-me-bio p:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 15px;
-    text-shadow: none;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /*-- end of about me --*/
@@ -143,82 +140,98 @@ footer div {
 /*-- SECTION TITLE STYLES START --*/
 
 .section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    color: var(--primary-color);
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
+  font-size: 48px;
+  border-bottom: 3px solid;
+  color: var(--primary-color);
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
   
 .primary-border {
-    border-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
   
 /* --Projects worked section-- */
 
 .projects {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
   
 .project {
-    margin: 20px;
-    flex: 1;
-    background-color: rgb(255, 250, 250, 0.4);
-    color: var(--primary-color);
-    border-radius: 10px;
+  margin: 20px;
+  flex: 1;
+  background-color: rgb(255, 250, 250, 0.4);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.project1 {
+  margin: 20px;
+  flex: 1;
+  background-color: rgb(255, 250, 250, 0.4);
+  color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.project1 img {
+  padding: 30px 60px;
+  width: 800px;
+  height: 500px;
 }
   
 .project img {
-    padding: 30px 60px;
-    width: 100%;
-    height: 500px;
+  padding: 30px 60px;
+  width: 100%;
+  height: 500px;
 }
   
 .project-bio {
-    padding: 25px;
-    line-height: 1.3;
-    margin: 20px;
-    flex: 1;
-    background-color: rgb(255, 250, 250, 0.65);
-    color: var(--primary-color);
-    border-radius: 10px;
+  padding: 25px;
+  line-height: 1.3;
+  margin: 20px;
+  flex: 1;
+  background-color: rgb(255, 250, 250, 0.65);
+  color: var(--primary-color);
+  border-radius: 10px;
 }
   
 .project-bio h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
   
 .project-bio h4 {
-    font-weight: lighter;
-    font-size: 22px;
-    margin-bottom: 15px;
+  font-weight: lighter;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
   
 .project-bio p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 /* projects STYLES END */
 
 /*-- contact me start --*/
 
-.contact img {
-    padding: 30px 250px ;
-    width: 100%;
-    height: 250px;
+.contact-me-row {
+  display: flex;
+}
+
+.contacts img {
+  padding: 30px 250px ;
+  width: 100%;
+  height: 250px;
 }
 
 /*-- end of contact me --*/
 
-.flex-row {
-    display: flex;
-}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
