@@ -15,5 +15,9 @@ https://github.com/Uncle-Antnee
 
 <img src=./assets/Images/screenshot.jpg />
 
+## Website made using
+HTML
+CSS
+
 ## contact info
 ajwwja@gmail.com
