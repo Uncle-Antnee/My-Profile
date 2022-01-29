@@ -98,7 +98,7 @@ footer div {
 
 /*-- large background picture --*/
 
-#profile-container {
+.profile-container {
     margin: 0 370px 60px;  
     
 }
@@ -172,7 +172,6 @@ footer div {
     background-color: rgb(255, 250, 250, 0.4);
     color: var(--primary-color);
     border-radius: 10px;
-
 }
   
 .project img {
@@ -226,7 +225,7 @@ footer div {
     header {
       padding-bottom: 0;
       justify-content: center;
-      position: relative
+      position: relative;      
     }
   
     header h1 {
@@ -247,6 +246,12 @@ footer div {
     footer h2, footer div {
       text-align: center;
       width: 100%;
+    }
+
+    .profile-container {
+      margin: 20px;
+      width: 450px;       
+      justify-content: center;           
     }
   
      

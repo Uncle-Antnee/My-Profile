@@ -1,16 +1,19 @@
-# Horiseon Marketing Company
-Home page for Horiseon, marketing company.
+# My Profile
+
+Week 2 challenge
+
+## Description
+
+Creation of the first of many versions of my portfolio which includes samples of my recent work. This is a work in progress that will be continually updated as time goes on.
+
+## links
 
 https://uncle-antnee.github.io/My-Profile/
+https://github.com/Uncle-Antnee
 
-[https://uncle-antnee.github.io/My-Profile/](https://uncle-antnee.github.io/My-Profile/)
+## Screenshot
 
-## HTMl
-    * Corrected broken link issues within the exisiting navigation link.
-    * Updated and cleaned up code so that semantic HTML elements are in place.
-    * Added elements that follow a logical structure independent of styling and positioning.
-    * Added accessible alt attributes to all images.
+<img src=./assets/Images/screenshot.jpg />
 
-## CSS
-    * Consolidated redundant elements, classes, and ids.
-    * Updatedsemantic elements for ease of identification. 
+## contact info
+ajwwja@gmail.com
