@@ -221,11 +221,12 @@ footer div {
 
 .contact-me-row {
   display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
 
 .contacts img {
-  padding: 30px 250px ;
-  width: 100%;
+  padding: 30px 150px; 
   height: 250px;
 }
 
