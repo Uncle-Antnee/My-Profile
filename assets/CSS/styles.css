@@ -83,7 +83,7 @@ footer {
 }
   
 footer h2 {
-  color: black;
+  color: var(--secondary-color);
   font-size: 30px;
   margin: 0;
 }
@@ -98,7 +98,10 @@ footer div {
 /*-- large background picture --*/
 
 .profile-container {
-  margin: 0 370px 60px;      
+  margin: 0 370px 60px;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;    
 }
 
 /*-- start of about me --*/
